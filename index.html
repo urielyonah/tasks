@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form onsubmit="return guardar()">
+        <h2>Formulario</h2>
+        <p>
+            <label>Nombre</label>
+            <input type="text" class="nombre" required>
+            <label>Idioma</label>
+            <input class="idioma" value="" type="text" required>
+            <label>Descripcion</label>
+            <input class="descripcion" value="" type="text" required>
+        </p>
+        <input class="guardar" type="submit" value="Guardar">
+    </form>
+
+    <table class="tabla">
+        <tr>
+            <th>
+                Nombre
+            </th>
+            <th>
+                Idioma  
+            </th>
+            <th>
+                Descripcion
+            </th>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
